@@ -17,4 +17,6 @@ No [Word2Vec com TF-IDF.ipynb](https://github.com/AlexandreRodolfo/classificacao
 
 Em [Tensorflow.ipynb](https://github.com/AlexandreRodolfo/classificacao_dos_diarios_da_amupe/blob/main/Tensorflow.ipynb) realizou-se o treinamento das redes neurais necessárias para a realização da classificação. Ela detalha da criação dos datasets, com divisões de treino e teste, até a arquitetura e treinamento das redes. Os resultados das melhores épocas foram salvos na pasta Modelos.
 
-Por fim, [Resultado.ipynb](https://github.com/AlexandreRodolfo/classificacao_dos_diarios_da_amupe/blob/main/Resultado.ipynb)
+Por fim, [Resultado.ipynb](https://github.com/AlexandreRodolfo/classificacao_dos_diarios_da_amupe/blob/main/Resultado.ipynb) traz o produto final para o cliente. Nele, são unidas todas as tecnologias dos outros três arquivos para construir uma ferramenta poderosa que consegue a partir do texto de uma publicação extrair os tipos de publicação, modalidade e festividade em probabilidades conjuntas para cada uma das frases do texto, considerando os *topn* resultados mais relevantes.
+
+Da perspectiva do cliente, ele precisará interagir apenas com uma função, *avaliar(publicacao, topn)*, que tem as entradas e saídas destrinchadas anteriormente. Note que como o projeto foi desenvolvido no Google Drive e Colab, caso se deseje rodar localmente algumas mudanças deverão ser realizadas para acomodar o caminho dos arquivos e baixar as bibliotecas necessárias à execução do projeto.
